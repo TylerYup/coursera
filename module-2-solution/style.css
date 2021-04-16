@@ -3,15 +3,13 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  
+  margin: 5px
 }
 body{
   font-family: "Hevletica", sans-serif;
 }
 h1 {
   margin-bottom: 15px;
-  margin-left: 8px;
-  margin-right: 8px;
   text-align: center;
   font-size: 175%;
 }
