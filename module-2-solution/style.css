@@ -5,6 +5,9 @@
   box-sizing: border-box;
   
 }
+body{
+  font-family: "Hevletica", sans-serif;
+}
 h1 {
   margin-bottom: 15px;
   text-align: center;
