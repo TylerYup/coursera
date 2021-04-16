@@ -20,6 +20,7 @@ p {
 }
 
 .section {
+  width 90%;
   border: 1px solid black;
   text-align center;
   background-color: #999999;
@@ -27,7 +28,7 @@ p {
   margin-right: 20px;
   margin-top: 20px;
   position: relative;
-  width 90%;
+  
 }
 
 span {
