@@ -3,7 +3,10 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  
+}
+body{
+  font-family: "Hevletica", sans-serif;
+  margin: 5px;
 }
 h1 {
   margin-bottom: 15px;
@@ -27,7 +30,7 @@ p {
   margin-right: 20px;
   margin-top: 20px;
   position: relative;
-  margin-left: 5px;
+    margin-left: 10px;
 }
 
 span {
