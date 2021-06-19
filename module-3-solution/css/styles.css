@@ -1,141 +1,38 @@
-/* Base Styles */
-
-* {
-  box-sizing: border-box;
-}
-
-h1 {
-  font-family: Brushstroke, fantasy;
-  color: #000000;
-}
-
 body {
-  background-image: url("background.jpg");
-  background-color: #FEF5CA;
-
+  padding-bottom: 30px;
 }
 
-p {
-  padding: 10px;
-  margin: 0;
-}
-
-.container {
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
-section {
-  border: 1px solid black;
-  background-color: #00FF99;
-  width: 100%;
-  height: auto;
-  font-family: Helvetica;
-  color: black;
-  position: relative;
-  overflow: auto;
-}
-
-#chicken {
-  border: 1px solid black;
-  text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
+/** Navigation **/
+#navigation a.navbar-brand {
+  color: #fff;
   font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
-  background-color: #FFFF00;
+  text-decoration: none;
 }
 
-#beef {
-  border: 1px solid black;
-  text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
-  background-color: #FF1439;
+#navbar a:hover, #navbar a:active {
+  background-color: #3b3b3b;
+}
+#navbar a {
+  color: #fff;
 }
 
-#sushi {
-  border: 1px solid black;
-  text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  background-color: #6495ED;
-  color: white;
-  padding: 5px;
+/** Content **/
+#content section {
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
 }
 
-#chicken-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+/*
+Fix: Avoid displayin section headers behind navigation bar when
+navigation links are clicked
+https://github.com/twbs/bootstrap/issues/1768
+#chicken:before,
+#beef:before,
+#sushi:before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
 }
-
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
-}
-
-#header-nav {
-  border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
-}
-
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
-
-#nav-list {
-  color: white;
-}
-
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.2em;
-}
+*/
